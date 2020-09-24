@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa79dbff-3df6-43d3-8412-3f6867072d1f" name="Default Changelist" comment="Program works, minor errors, a bug seems to happen with 'w'. Empty space also seems to sometimes become a char. (which is weird considering that we decrypt all other chars the same way and they work)">
+      <change afterPath="$PROJECT_DIR$/src/Basic/DecryptionChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AliceDecoded.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AliceDecoded.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AliceEncoded.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AliceEncoded.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hoZXM7bZCxXyTkXUuXZMHrlJSR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Basic" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.Main" />
+      <module name="CC_CesarsCryptography_JUnit_TDD_V2_BAWG" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoderTest.decode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CC_CesarsCryptography_JUnit_TDD_V2_BAWG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Basic" />
+      <option name="MAIN_CLASS_NAME" value="Basic.DecoderTest" />
+      <option name="METHOD_NAME" value="decode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncoderTest.encode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CC_CesarsCryptography_JUnit_TDD_V2_BAWG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Basic" />
+      <option name="MAIN_CLASS_NAME" value="Basic.EncoderTest" />
+      <option name="METHOD_NAME" value="encode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.EncoderTest.encode" />
+      <item itemvalue="JUnit.DecoderTest.decode" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DecoderTest.decode" />
+        <item itemvalue="JUnit.EncoderTest.encode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa79dbff-3df6-43d3-8412-3f6867072d1f" name="Default Changelist" comment="" />
+      <created>1600679448299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600679448299</updated>
+      <workItem from="1600679449782" duration="9848000" />
+      <workItem from="1600857754257" duration="966000" />
+      <workItem from="1600868653638" duration="15000" />
+      <workItem from="1600931170972" duration="6235000" />
+    </task>
+    <task id="LOCAL-00001" summary="Program works, minor errors, a bug seems to happen with 'w'. Empty space also seems to sometimes become a char. (which is weird considering that we decrypt all other chars the same way and they work)">
+      <created>1600701342876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600701342876</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed encryption/decryption to a line to line approach">
+      <created>1600968149794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600968149795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Program works, minor errors, a bug seems to happen with 'w'. Empty space also seems to sometimes become a char. (which is weird considering that we decrypt all other chars the same way and they work)" />
+    <MESSAGE value="Changed encryption/decryption to a line to line approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed encryption/decryption to a line to line approach" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1600968148624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600968148624" />
+    <state x="876" y="310" key="Github.ShareDialog" timestamp="1600680035964">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="876" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1600680035964" />
+    <state x="670" y="117" key="Github.UntrackedFilesDialog" timestamp="1600680060837">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="670" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600680060837" />
+    <state width="1151" height="268" key="GridCell.Tab.0.bottom" timestamp="1600941510874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1151" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600941510874" />
+    <state width="1151" height="268" key="GridCell.Tab.0.center" timestamp="1600941510874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1151" height="268" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600941510874" />
+    <state width="1151" height="268" key="GridCell.Tab.0.left" timestamp="1600941510874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1151" height="268" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600941510874" />
+    <state width="1151" height="268" key="GridCell.Tab.0.right" timestamp="1600941510874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1151" height="268" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600941510874" />
+    <state x="679" y="148" key="Vcs.Push.Dialog.v2" timestamp="1600968152141">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="679" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600968152141" />
+    <state x="818" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600692749040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="818" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1600692749040" />
+    <state x="860" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600692971004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="860" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1600692971004" />
+  </component>
+</project>
