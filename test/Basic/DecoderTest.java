@@ -9,18 +9,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class DecoderTest {
 
     @Test
-    void decode() {
-        String hello = Encoder.encode("We are the world!");
-        hello = Decoder.decode(hello);
-        assertEquals("We are the world!", hello);
-    }
-
-    @Test
-    void decodedTest(){
+    void decodeTest(){
         String alice = FileHandler.readFile("AliceInWonderland.txt");
         String encoded = Encoder.encode(alice);
         String decoded = Decoder.decode(encoded);
 
+        assert alice != null;
         Scanner aScanner = new Scanner(alice);
         Scanner dScanner = new Scanner(decoded);
 

@@ -8,7 +8,7 @@ public class Encoder {
         //encode text
         Random random = new Random();
         int randomNumber = random.nextInt(10) + 1;
-        String encoded = "";
+        StringBuilder encoded = new StringBuilder();
 
         Scanner scanner = new Scanner(text);
         while(scanner.hasNext()){
@@ -16,16 +16,16 @@ public class Encoder {
 
             for(int i = 0; i < line.length(); i++){
                 if (line.charAt(i) != ' '){
-                    encoded += (char)(line.charAt(i) + randomNumber);
+                    encoded.append((char) (line.charAt(i) + randomNumber));
                 }else if (line.charAt(i) == ' '){
-                    encoded += " ";
+                    encoded.append(" ");
                 }
                 else{
                     System.out.println("Something went wrong!");
                 }
             }
-            encoded += "\n";
+            encoded.append("\n");
         }
-        return encoded;
+        return encoded.toString();
     }
 }

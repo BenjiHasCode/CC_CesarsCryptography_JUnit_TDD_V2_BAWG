@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Decoder {
     public static String decode(String text){
-        String decodedText = "";
+        StringBuilder decodedText = new StringBuilder();
         int decodeValue = 0;
 
         Scanner scanner = new Scanner(text);
@@ -13,11 +13,11 @@ public class Decoder {
             String word = scanner.next();
             if(word.length() == 3){
                 for (int i = 10; i > 0; i--){
-                    String temp = "";
+                    StringBuilder temp = new StringBuilder();
                     for(int j = 0; j < word.length(); j++){
-                        temp += (char)(word.charAt(j) - i);
+                        temp.append((char) (word.charAt(j) - i));
                     }
-                    if(temp.equals("the")){
+                    if(temp.toString().equals("the")){
                         decodeValue = i;
                         break;
                     }
@@ -31,16 +31,16 @@ public class Decoder {
 
             for(int i = 0; i < line.length(); i++){
                 if (line.charAt(i) != ' '){
-                    decodedText += (char)(line.charAt(i) - decodeValue);
+                    decodedText.append((char) (line.charAt(i) - decodeValue));
                 }else if (line.charAt(i) == ' '){
-                    decodedText += " ";
+                    decodedText.append(" ");
                 }
                 else{
                     System.out.println("Something went wrong!");
                 }
             }
-            decodedText += "\n";
+            decodedText.append("\n");
         }
-        return decodedText;
+        return decodedText.toString();
     }
 }

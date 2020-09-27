@@ -12,13 +12,13 @@ public class Main {
         System.out.println(decoded);
         FileHandler.writeFile("AliceDecoded.txt", decoded);
         //Moby Dick
-       /* String moby = FileHandler.readFile("MobyDick.txt");
+        String moby = FileHandler.readFile("MobyDick.txt");
         System.out.println(moby);
         FileHandler.writeFile("MobyDickEncoded.txt", Encoder.encode(moby));
-        String encoded = FileHandler.readFile("MobyDickEncoded.txt");
-        System.out.println(encoded);
-        String decoded = Decoder.decode(encoded);
-        System.out.println(decoded);
-        FileHandler.writeFile("MobyDickDecoded.txt", decoded);*/
+        String encodedMoby = FileHandler.readFile("MobyDickEncoded.txt");
+        System.out.println(encodedMoby);
+        String decodedMoby = Decoder.decode(encodedMoby);
+        System.out.println(decodedMoby);
+        FileHandler.writeFile("MobyDickDecoded.txt", decodedMoby);
     }
 }
