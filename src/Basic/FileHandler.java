@@ -9,13 +9,13 @@ public class FileHandler {
     public static String readFile(String path){
         try{
             Scanner scanner = new Scanner(new File(path));
-            String text = "";
+            StringBuilder text = new StringBuilder();
 
             while(scanner.hasNext()){
-                text += scanner.nextLine();
-                text += "\n";
+                text.append(scanner.nextLine());
+                text.append("\n");
             }
-            return text;
+            return text.toString();
         }catch (FileNotFoundException f){
             System.out.println(f);
             return null;
